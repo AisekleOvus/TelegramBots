@@ -39,8 +39,8 @@ import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage
 public class Abili extends AbilityBot {
 
 
-	private final static String BOT_TOKEN = "1526996742:AAFbzgcYCndE179OMVi4Nei_5H5yYX-bG_w";
-	private final static String BOT_USERNAME = "FIN.CONTENT";
+	private final static String BOT_TOKEN = "";
+	private final static String BOT_USERNAME = "";
 	private final static long TRIAL_DAYS = 365;
 	private static String BOT_PRICE = "250";
 	
