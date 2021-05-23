@@ -72,7 +72,7 @@ public class NewsBot {
 }
 
 class Translater {
-	private static final String OAU = "AQAAAABTAuHQAATuwaYan2I1_Ez1lv8sT4Etb8c";
+	private static final String OAU = "";
 	private LinkedHashMap<String, String> mapToTranslate;
     private static final String INSTALL_DIR = getInstallDir();
     private  String folderId;
@@ -95,7 +95,7 @@ class Translater {
             iam_token = getIamToken();
 		toTranslate.append("curl -X POST -H \"Content-Type: application/json\" -H \"Authorization: Bearer ");
 		toTranslate.append(iam_token + "\" ");
-		toTranslate.append("-d \"{\\\"folder_id\\\":\\\"b1gf2361t9nolam84ams\\\",\\\"texts\\\":[");
+		toTranslate.append("-d \"{\\\"folder_id\\\":\\\"\\\",\\\"texts\\\":[");
 		int i = 0;
 		Iterator<String> setIterator = mapToTranslate.keySet().iterator();
 		while(setIterator.hasNext()) {
@@ -147,7 +147,7 @@ class Translater {
 			scanIamToken.close();
 		}
 		if(iamTokenDataString.isEmpty() || iamTokenExpirationDateTime.isBefore(LocalDateTime.now())) {
-			String command = "curl -d {\"yandexPassportOauthToken\":\"AQAAAABTAuHQAATuwaYan2I1_Ez1lv8sT4Etb8c\"} https://iam.api.cloud.yandex.net/iam/v1/tokens";
+			String command = "curl -d {\"yandexPassportOauthToken\":\"\"} https://iam.api.cloud.yandex.net/iam/v1/tokens";
 			Process process = Runtime.getRuntime().exec(command);
 			Scanner scanner = new Scanner(process.getInputStream());
 			while(scanner.hasNext())
