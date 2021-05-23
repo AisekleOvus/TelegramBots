@@ -33,8 +33,8 @@ import java.util.logging.LogManager;
 
 class BulletinSender {
 	private Logger log;
-	private static final String TOKEN = "1473657414:AAGtn6-sO0pRxUMaK5iF_0-zs8gP3T3W6RE"; // @ToroDelOroEconomicBulletinBot 
-	private static final String TORODORO = "@torodioro";
+	private static final String TOKEN = ""; // @ 
+	private static final String TORODORO = "@";
 	private Map<String, String[]> settsMap;
 	private List<String> clients;
 	private String parentDir;
