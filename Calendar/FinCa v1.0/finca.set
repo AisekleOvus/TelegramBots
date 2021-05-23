@@ -1,0 +1,12 @@
+weekly
+https://sslecal2.forexprostools.com/?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_inflation,_credit,_centralBanks,_confidenceIndex,_balance,_Bonds&importance=2,3&features=datepicker,timezone&countries=25,32,4,17,72,6,37,7,43,56,36,5,63,61,22,12,11,35&calType=week&timeZone=18&lang=7
+daily
+https://sslecal2.forexprostools.com/?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&category=_employment,_economicActivity,_inflation,_credit,_centralBanks,_confidenceIndex,_balance,_Bonds&importance=1,2,3&features=datepicker,timezone&countries=25,32,4,17,72,6,37,7,43,56,36,5,63,61,22,12,11,35&calType=day&timeZone=18&lang=7
+
+hide
+generalOverlay
+signupWrap
+genPopup
+
+Специально предложение для вас - закрыть - popupCloseIcon click 2 шт
+allow-notifications-popup-close-button 1 ШТ
