@@ -36,8 +36,8 @@ import org.jsoup.select.Elements;
 
 
 class ReutNews {
-	private static final String TOKEN = "1493941048:AAHa3_T37G7G33mXhYPNPW1yPu-Akfun2GA"; // @ToroDelOroMarketNewsBot 
-	private static final String TORODORO = "@torodioro";
+	private static final String TOKEN = ""; // @ 
+	private static final String TORODORO = "@";
 	private String parentDir;
 	private Set<String> pubTitles;
 	private String newsUrl;
