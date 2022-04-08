@@ -14,4 +14,4 @@ Bot to rule subscriptors
 This bot to gather stock-market news and posts it to telegram channel(s)
 
 ##
-######If you really inerested of how it works or have some bugtrack please contact me : zz5u5zz@gmail.com
+###### If you really inerested of how it works or have some bugtrack please contact me : zz5u5zz@gmail.com
