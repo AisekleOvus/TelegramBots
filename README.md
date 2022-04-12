@@ -7,6 +7,8 @@ Calendar bot able to grab forex-calendar events from investing.com and post it t
 ## Gathering
 This bot gather different economic info such as quotes of different commodities, stocks, indecies from open sources all over the world and posts it to telegram channel(s) in time of market activity.
 
+![](https://github.com/AisekleOvus/Temp/blob/master/Europe.svg)
+
 ## Merch
 Bot to rule subscriptors
 
